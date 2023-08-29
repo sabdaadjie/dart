@@ -28,3 +28,5 @@ didalam contoh tersebut nantinya kita bisa nge track perubahan perubahan apa saj
 contoh :
 di branch featureA terdapat program dengan nama data_mahasiswa.dart dan di branch featureB juga terdapat program dengan nama data_mahasiswa.dart.
 Kita sudah melakukan penulisan data hingga 100 line atau data pada program data_mahasiswa, tetapi kita menuliskan datanya di featureB sedangkan kita ingin menuliskan data nya branch featureA, disini kita bisa menggunakan perintah " git stash " pada featureB maka data yang kita tambahkan tadi akan hilang pada code featureB dan code tersebut akan di simpan di tempat lain, lalu kita apply data tadi yang sudah di stash dengan pindah ke branch yang ingin di tuju dengan perintah " git checkout featureA" lalu kita pindahkan datanya dengan perintah "git stash apply" maka data yang sudah kita ketikan di featureB akan terpindah di featureA.
+
+I am editting the README file. Adding some more details about the project description.
